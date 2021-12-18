@@ -1,0 +1,24 @@
+/* Styles go here */
+.mycard{
+    margin: auto;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+.myTable{
+    margin: auto;
+    padding: 10px;  
+}
+
+@media only screen and (min-width: 1024px) {
+    .mycard{
+        width: 50%;
+        margin: auto;
+        border: 5px solid #FFFF00;
+        padding: 10px;
+    }
+    .myTable{
+        width: 70%;
+        margin: auto;
+        padding: 10px;  
+    }
+}
